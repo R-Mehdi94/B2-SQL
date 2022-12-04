@@ -26,3 +26,11 @@ INSERT INTO HEBERGER VALUES("2022/05/20", 1, 1, 2), ("2022/05/22", 2, 1, 1), ("2
 
 INSERT INTO PROPOSER VALUES(1,1),(2,2),(3,2);
 
+INSERT INTO TYPEOPERATION VALUES(20, "Réparation crémaillère de direction"), (22, "Remplacement colonne de direction");
+
+INSERT INTO EFFECTUER VALUES(1, 20), (1,22);
+
+INSERT INTO COULEUR VALUES(1, "Bleu"), (2,"Vert"), (3,"Jaune");
+
+INSERT INTO CONCERNE VALUES(1,1,1), (1,2,2);
+
